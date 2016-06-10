@@ -12,3 +12,13 @@ Project of object detection.
   4. Training example:
     Please refer to ./script/npd_train_demo.sh
 
+
+References:
+
+  [Project page](http://www.cbsr.ia.ac.cn/users/scliao/projects/npdface/index.html)
+  @article{
+      Author = {Shengcai Liao, Member, IEEE, Anil K. Jain, Fellow, IEEE, and Stan Z. Li, Fellow, IEEE},
+      Title = {A Fast and Accurate Unconstrained Face Detector},
+      Year = {2014}
+  }
+
