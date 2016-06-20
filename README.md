@@ -18,18 +18,31 @@ Note:
 
 Result:
 
-1. ROC:
++ ROC:
 
+  ![图片1.png-123.8kB][1]
 
- ![图片1.png-123.8kB][1]
-
-
-2. Speed:
-
++ Speed:
 
 | image size | window size | cores | time (ms) |
 | :---: | :---: | :---: | :---: | :---: |
 | 640x480 | 20x20 | 1 | ~50 |
+
+
++ ROC for `npddetect::prescandetect`:
+
+![图片2.png-109.5kB][2]
+
++ Speed for `npddetect::prescandetect`:
+
+| params | image size | window size | time(ms) |
+| :---: | :---: | :---: | :---: |
+| none | 1920x1080 | 20x20 | 532.400239 |
+| stepR = 2, thresR = 0.2 | 1920x1080 | 20x20 | 344.154205 |	
+| stepR = 2, thresR = 0.3 | 1920x1080 | 20x20 | 282.128798 |		
+| stepR = 3, thresR = 0.2 | 1920x1080 | 20x20 | 286.230415 |	
+| stepR = 3, thresR = 0.3 | 1920x1080 | 20x20 | 226.091203 |	
+| stepR = 4, thresR = 0.3 | 1920x1080 | 20x20 | 202.147923 |	
 
 References:
 
@@ -47,3 +60,4 @@ References:
 
 
   [1]: http://static.zybuluo.com/No-Winter/4n2oqec9hqj80qic2ujebxmn/%E5%9B%BE%E7%89%871.png
+  [2]: http://static.zybuluo.com/No-Winter/bzf61zqjs4c1qfilwzds4f7s/%E5%9B%BE%E7%89%872.png
