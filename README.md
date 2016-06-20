@@ -20,12 +20,15 @@ Result:
 
 1. ROC:
 
-![图片1.png-123.8kB][1]
+
+ ![图片1.png-123.8kB][1]
+
 
 2. Speed:
 
+
 | image size | window size | cores | time (ms) |
-| --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :---: |
 | 640x480 | 20x20 | 1 | ~50 |
 
 References:
