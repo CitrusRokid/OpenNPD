@@ -2,7 +2,7 @@
 
 Project of object detection.
 
- Usage:
+## Usage:
 
   1. Add needed librarys to 3rdpart folder(opencv).
 
@@ -12,11 +12,11 @@ Project of object detection.
 
   4. Training example: Please refer to `./script/npd_train_demo.sh`
 
-Note:
+## Note:
 
 1. Thereis a `npddetect::prescandetect` function for faster detection with some lose on recall. Additional parameter `stepR` refers to pre-scan step size compared to the original scan step size ( float more than 1 ) . The `thresR` refers to the threshold to reject the window( float in [0-1] ).
 
-Result:
+## Result:
 
 + ROC:
 
@@ -44,9 +44,14 @@ Result:
 | stepR = 3, thresR = 0.3 | 1920x1080 | 20x20 | 226.091203 |	
 | stepR = 4, thresR = 0.3 | 1920x1080 | 20x20 | 202.147923 |	
 
-References:
 
-  [Project page](http://www.cbsr.ia.ac.cn/users/scliao/projects/npdface/index.html)
+#License and Citation
+
+This software is free for noncommercial use. This software is provided "as is", without any warranty of upgradation or customized development. It is your own risk of using this software. The authors are not responsible for any damage caused by using this software. 
+
+## References:
+
+This software is based on the MATLAB edition. Thanks for the work of Liao et al. [Project page](http://www.cbsr.ia.ac.cn/users/scliao/projects/npdface/index.html).
 
 > @article{
 
