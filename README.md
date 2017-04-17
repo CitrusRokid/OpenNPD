@@ -45,7 +45,7 @@ Project of object detection.
 | stepR = 4, thresR = 0.3 | 1920x1080 | 20x20 | 202.147923 |	
 
 
-#License and Citation
+# License and Citation
 
 This software is free for noncommercial use. This software is provided "as is", without any warranty of upgradation or customized development. It is your own risk of using this software. The authors are not responsible for any damage caused by using this software. 
 
